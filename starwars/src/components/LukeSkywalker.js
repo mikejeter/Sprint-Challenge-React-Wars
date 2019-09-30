@@ -10,7 +10,7 @@ export default function LukeSkywalker(props) {
      <Col>
       <Card>
         <CardBody>
-          <CardTitle>{props.name}</CardTitle>
+          <CardTitle>Name:{props.name}</CardTitle>
         </CardBody>
         <CardBody>
           <CardText>{props.height}</CardText>
@@ -27,7 +27,7 @@ export default function LukeSkywalker(props) {
           <CardLink href={props.starships}></CardLink>
           <CardText>{props.created}</CardText>
           <CardText>{props.edited}</CardText>
-          <img src={`${props.url}`} alt="" />
+          <img width="100%" src={`${props.url}`} alt="" />
         </CardBody>
       </Card>
       </Col>

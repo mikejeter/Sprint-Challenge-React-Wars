@@ -32,6 +32,7 @@ export default function PeopleList(props) {
       <Col>
       <LukeSkywalker
         people={people.people}
+        name={people.name}
         height={people.height}
         mass={people.mass}
         hair_color={people.hair_color}
